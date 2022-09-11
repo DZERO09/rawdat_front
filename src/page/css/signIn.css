@@ -6,6 +6,15 @@
     width: 30px;
     height: 30px;
 }
+.signIn-button-container{
+    display: flex;
+    flex-direction: column;
+}
 input{
     
+}
+form{
+    border: 1px black solid;
+    margin: 150px auto;
+    padding: 80px;
 }
