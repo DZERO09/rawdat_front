@@ -1,0 +1,37 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    justify-content: space-between;
+}
+.App-main{
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+ flex-direction: row;
+     justify-items: flex-start;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.btn{
+    position: relative;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    width: 250px;
+    border: none;
+    transition: all 0.3s ease-out;
+
+}
+.btn-primary{
+    color: white;
+    background-color: rgb(230, 72, 72);
+    
+}
+

@@ -1,0 +1,11 @@
+.signIn-pwd-container{
+    display: flex;
+    flex-direction: row;
+}
+#signIn-pwd-visible-imd{
+    width: 30px;
+    height: 30px;
+}
+input{
+    
+}

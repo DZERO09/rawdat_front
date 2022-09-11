@@ -1,0 +1,37 @@
+.Kid-profile-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.Kid-hole-wrapper{
+    display: flex;
+    width: 600px;
+    border: 1px solid rgb(216, 205, 205);
+    margin-bottom: 5px;
+}
+.Kid-wrapper{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+}
+.Kid-wrapper label{
+   margin-bottom: 3px;
+ margin-left: 100px;
+}
+.Kid-not-found-conatiner{
+    position: relative;
+    left: auto;
+      right: 120px;
+}
+.Kid-not-found{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  
+
+}
+li{
+    list-style: none;
+}

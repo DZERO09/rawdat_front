@@ -1,0 +1,152 @@
+.kid-form {
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.wrapper-select-kid-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*select:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }*/
+
+/*.wrapper-label ,Button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wrapper-input input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wrapper-input select{
+    display: inline-block;
+}
+*/
+input[type="file"] {
+    display: none;
+}
+#Kid-form-profile-picture{
+    border: none;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    
+
+}
+label,
+input {
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    /*margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left:75px;*/
+
+}
+
+/*label{
+    align-items: flex-start;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}*/
+select {
+    text-align: center;
+    margin-left: 5px;
+    width: 75px;
+    border: none;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+
+}
+#Kid-profile-picture{
+    cursor: pointer;
+}
+
+
+.btn{
+
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-style: normal;
+    font-size: large;
+    padding: 0 7px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 212px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.btn-primary {
+    
+    background-color: #ea1068;
+  
+   
+}
+
+.btn-primary:hover {
+    background-color: #21e3a5;
+    color: #ea1068;
+    border: 1px solid #e75757;
+}
+
+.btn-secondary {
+  
+    background-color: #002e90;
+   
+
+}
+
+.btn-secondary:hover {
+    background-color: #60b6c3;
+    color: #002e90;
+    border: 1px solid #d0382f;
+}
+
+.btn:disabled {
+    background-color: #cccccc;
+    color: #333;
+    cursor: auto;
+
+}
+.Kid-form-message{
+    font-style: normal;
+    font-size: smaller;
+    color: red;
+}
