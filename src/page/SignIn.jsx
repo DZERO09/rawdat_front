@@ -23,9 +23,13 @@ function SignIn() {
 
   return (
     <>
+    
       <form>
+        <div>
         <input type="email" placeholder='Email' id='username'
-          value={username} onChange={onChange} /><br />
+          value={username} onChange={onChange} />
+         
+     
         <div className='signIn-pwd-container'>
           <input type={setShowPwd ? 'text' : 'password'} placeholder='password' id='password'
             value={password} onChange={onChange} />
@@ -33,8 +37,10 @@ function SignIn() {
             () => setShowPwd((prevState) => !prevState)
           } />
         </div>
+        </div>
+        
         <div className='signIn-button-container'>
-          <Link to='/forgot-password' >forget password ?</Link>
+          <Link to='/forgot-password' >forget password</Link>
           <button>Login</button>
         </div>
 

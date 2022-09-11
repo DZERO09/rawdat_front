@@ -1,20 +1,62 @@
-.signIn-pwd-container{
+.signIn-pwd-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
-#signIn-pwd-visible-imd{
-    width: 30px;
-    height: 30px;
+
+#signIn-pwd-visible-imd {
+    width: 25px;
+    height: 25px;
 }
-.signIn-button-container{
+
+.signIn-button-container {
     display: flex;
     flex-direction: column;
+   
+
 }
-input{
-    
+
+input {
+    width: 300px;
+    margin: 10px;
 }
-form{
-    border: 1px black solid;
-    margin: 150px auto;
-    padding: 80px;
+
+button {
+    width: 100px;
+
+}
+
+form {
+    width: 600px;
+    background-image: url('./../../asset/navbar/baby-boy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
+
+a{
+    font-weight: lighter;
+   margin: 10px auto;
+    width: 120px;
+    height:30px;
+   text-align: start;
+    text-decoration: none;
+    color: black;
+ 
+   
+}
+a:hover{
+    font-weight: bolder;
 }
